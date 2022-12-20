@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  'Open Sans', 'sans-serif';
+    background-color: rgb(8, 8, 8);
+    color: white;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+  
+ h3, h2, h1,  h4 {
+    margin:  16px 0 18px;
+    font-weight: 400;
+    line-height: 1.4;
+  }
+  
+  h1 {
+    margin-top: 0;
+    font-size: 50px;
+    font-weight: 800;
+  }
+  
+  h2 {
+    font-size: 40px;
+  }
+  
+  h3 {
+    font-size: 30px;
+  }
+  
+  h4 {
+    font-size: 22px;
+  }
+  
+  h5 {
+    font-size: 15px;
+  }
+  
+  h5 {
+    margin: 0;
+    font-weight: 400;
+    line-height: 1.3;
+  }
+  
+  li {
+    list-style: none;
+   
+  }
+  .btn {
+    border: none;
+    border-radius: 10px;
+    padding: 16px 48px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .head {
+
+        padding: 0 180px 0 250px;
+        background: url("./Photos/mainImage.png");
+        background-repeat: no-repeat;
+        background-size: 240px;
+        background-position-x: 300px;
+        background-position-y: -100px;
+      }
+
+      .head-top {
+        background: url('./Photos/onEar.png');
+        background-position-x: 400px;
+        background-repeat: no-repeat;
+        padding-top: 6rem;
+        margin-bottom: 6rem;
+        padding-left: 33rem;
+        padding-right: 12rem;
+      }
+
+      .head-btn {
+        align-self: center;
+        border: none;
+        border-radius: 12px;
+        padding: 0 2rem;
+        font-size: 16px;
+        background-color: #1e1e21;
+        cursor: pointer;
+      }
+
+
+      .shopping{
+        background: #1e1e21;
+        padding: 17px;
+        width:  50px;
+        border-radius: 5px;
+        position: relative;
+        top: 10px;
+        background: #1e1e21;
+      }
+
+
+      .bottom {
+        background-color: #1e1e21;
+        display: flex;
+        
+        padding: 80px 8px 16px 8px;
+        border-radius: 8px;
+        justify-content: space-between;
+        text-align: left;
+      }
+   
+ 
+  
